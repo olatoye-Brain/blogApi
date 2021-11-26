@@ -1,0 +1,30 @@
+POST http://localhost:5000/posts
+Content-Type: application/json
+
+{
+    "title": "Nuxt Js App",
+    "author": "Jeff John",
+    "description" : "Welcome to NuxtJs"
+}
+
+###
+
+GET http://localhost:5000/
+
+###
+
+GET http://localhost:5000/delete/6080bfeefd22af240cd5d323
+
+###
+
+GET http://localhost:5000/blogs/607c34211f57ca25b417ee7f
+
+###
+POST http://localhost:5000/edit/607c34211f57ca25b417ee7f
+Content-Type: application/json
+
+{
+  "title": "React Native",
+  "author": "Olatoye",
+  "description": "Description on React"
+}
